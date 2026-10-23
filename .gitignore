@@ -1,0 +1,7 @@
+node_modules/
+# keypairs: never commit a private key
+id.json
+*keypair*.json
+# output
+*.sent.csv
+holders-*.csv

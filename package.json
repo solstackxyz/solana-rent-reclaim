@@ -1,0 +1,33 @@
+{
+  "name": "solana-rent-reclaim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Close empty Solana token accounts (SPL Token and Token-2022) and get the rent SOL back.",
+  "keywords": [
+    "solana",
+    "spl-token",
+    "token-2022",
+    "rent",
+    "reclaim",
+    "close-token-account",
+    "wallet-cleaner",
+    "recover-sol"
+  ],
+  "homepage": "https://solstack.xyz/tools/reclaim-solana-rent",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solstackxyz/solana-rent-reclaim.git"
+  },
+  "license": "MIT",
+  "author": "Solstack (https://solstack.xyz)",
+  "scripts": {
+    "start": "node reclaim.mjs"
+  },
+  "engines": {
+    "node": ">=18.11"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4"
+  }
+}
